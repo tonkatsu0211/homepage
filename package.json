@@ -1,0 +1,28 @@
+{
+  "name": "tonkatsu-page",
+  "version": "1.3.1",
+  "description": "_tonkatsu_ / tonkatsu0211's Page",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step required for Express app'"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.18.2",
+    "express-session": "^1.18.1",
+    "multer": "^2.0.1",
+    "socket.io": "^4.8.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^8.3.2",
+    "web-push": "^3.6.7"
+  },
+  "license": "CC-BY 4.0",
+  "author": "_tonkatsu_ / tonkatsu0211"
+}

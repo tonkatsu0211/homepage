@@ -1,0 +1,159 @@
+<%- include("settings/header") %>
+<%- include("settings/nav") %>
+<%- include("settings/top") %>
+
+<h1 id="chText" style="font-size: 30px; color: #ff0000 !important">
+  ※サイトを移設したため、データは消えてしまっています。申し訳ありません。
+</h1>
+
+<p>下のボタンを押すと書いてあるゲームをプレイできます。</p>
+<p style="color: #ff0000 !important; font-size: 15px; font-weight: bold">
+  ※プレイデータが保存されない場合があります。
+</p>
+<div class="game-container">
+  <div class="game-items">
+    <img src="/assets/snow.png" />
+    <h2>
+      <button onclick="location.href='https://vfpzs4.csb.app/snow.html'" class="blueButton30">
+        snowball.io をプレイ
+      </button>
+    </h2>
+    <p style="font-size: 15px">よくある広告ゲー。(楽しいけど作業成分多め)</p>
+    <p style="color: #ff0000; font-size: 15px">
+      何故か動かないことがあります。
+    </p>
+  </div>
+  <div class="game-items">
+    <img src="/assets/ping-pong.jpeg" />
+    <h2>
+      <button onclick="location.href='https://vfpzs4.csb.app/pingpong.html'" class="blueButton30">
+        Ping-Pong PvP をプレイ
+      </button>
+    </h2>
+    <p style="font-size: 15px">2人用リアルタイム対戦ゲーム。</p>
+    <p style="color: #ff0000; font-size: 15px">2端末必要。</p>
+  </div>
+  <div class="game-items">
+    <img src="/assets/snowrider.jpeg" />
+    <h2>
+      <button onclick="location.href='https://vfpzs4.csb.app/snowrider.html'" class="blueButton30">
+        Snow Rider 3D をプレイ
+      </button>
+    </h2>
+    <p style="font-size: 15px">ソリで滑るゲーム</p>
+    <p style="color: #ff0000; font-size: 15px">データ保存たぶん対応。</p>
+  </div>
+</div>
+<!--
+      <br>
+      <br>
+      <div class="game-container">
+        <div class="game-items">
+          <img src="/2048.png">
+          <h2>
+            <button onclick="location.href='/games/2048'" class="blueButton30">
+              2048 をプレイ
+            </button>
+          </h2>
+          <p style="font-size: 15px; ">
+            いつもの。2の何乗まで行けるかな?
+          </p>
+          <p style="color: #ff0000; font-size: 15px;">
+            再読み込みするとリセットされます。
+          </p>
+        </div>
+        <div class="game-items">
+          <img src="/1.png">
+          <h2>
+            <button onclick="location.href='/games/1'" class="blueButton30">
+              1 をプレイ
+            </button>
+          </h2>
+          <p style="font-size: 15px; ">
+            2048からスタート。1を目指せ。 4x4マス。
+          </p>
+          <p style="color: #ff0000; font-size: 15px;">
+            再読み込みはリセット。
+          </p>
+        </div>
+        <div class="game-items">
+          <img src="/9007199254740992.png">
+          <h2>
+            <button onclick="location.href='/games/9007199254740992'" class="blueButton25">
+              9007199254740992 をプレイ
+            </button>
+          </h2>
+          <p style="font-size: 15px;">
+            9007兆1992億5474万992(2の53乗)。8x8マス。
+          </p>
+          <p style=" color: #ff0000; font-size: 15px;">
+            自動モードあり。再読み込みはリセット。
+          </p>
+        </div>
+      </div>
+-->
+<br />
+<br />
+<div class="game-container">
+  <div class="game-items">
+    <img src="/assets/paper.jpeg" />
+    <h2>
+      <button onclick="location.href='https://vfpzs4.csb.app/paper.html'" class="blueButton30">
+        Paper.io をプレイ
+      </button>
+    </h2>
+    <p style="font-size: 15px">陣地を広げて奪い合うゲーム</p>
+    <p style="color: #ff0000; font-size: 15px">
+      アイコンはわかめTubeよりお借りしました。
+    </p>
+    <br />
+    <br />
+  </div>
+  <div class="game-items">
+    <img src="/assets/othello.jpeg" />
+    <h2>
+      <button onclick="location.href='https://vfpzs4.csb.app/aiothello.html'" class="blueButton30">
+        AIオセロ をプレイ
+      </button>
+    </h2>
+    <p style="font-size: 15px">VS めちゃつよAI</p>
+    <p style="color: #ff0000; font-size: 15px">
+      わかめTubeよりお借りしました。
+    </p>
+  </div>
+  <br>
+  <br>
+  <div class="game-items">
+    <img src="/assets/tetrisneo2.png">
+    <h2>
+      <button onclick="location.href='<%= origin %>/games/tetrisneo2v4'" class="blueButton20" target="_self">
+        オンラインテトリスNEO2 をプレイ
+      </button>
+    </h2>
+    <p style="font-size: 15px; ">
+      cosmo-zero様に感謝を。<a href="https://drive.google.com/file/d/1ITzAyP7lawTDQuOXgbvG9GfknDMkN1d1/view?usp=drive_open" target="_blank">使い方</a>
+    </p>
+    <p style="color: #ff0000; font-size: 15px;">
+      アカウント登録必須(オンライン可)
+    </p>
+  </div>
+</div>
+<div class="game-container">
+  <div class="game-items">
+    <img src="/assets/tetrisbeta.png"/>
+    <h2>
+      <button onclick="location.href='<%= origin %>/games/tetrisbeta'" class="blueButton25" target="_self">
+        テトリス / Tetris Beta をプレイ
+      </button>
+    </h2>
+    <p style="font-size: 15px; ">
+      cosmo-zero様に感謝を。
+    </p>
+    <p style="color: #ff0000; font-size: 15px;">
+      アカウント登録不要(1人用)
+    </p>
+  </div>
+</div>
+</div>
+
+<%- include("settings/footer") %>

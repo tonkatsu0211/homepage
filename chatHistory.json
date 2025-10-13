@@ -1,0 +1,1367 @@
+[
+  {
+    "id": "ae1a1b25-f345-429a-aafe-21f942588547",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 11:29:31"
+  },
+  {
+    "id": "2fbe69cf-2e0f-4f55-9055-26d4095aedcc",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/09 11:31:20"
+  },
+  {
+    "id": "7d0f8186-f5ee-4708-8cf2-a022ec50b340",
+    "username": "_tonkatsu_",
+    "message": "一応自分のわかめ貼っておく\n\\url https://wakame3.osc-fr1.scalingo.io/wkt\\",
+    "timestamp": "2025/10/9 11:31:39",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "03d5dfc1-2b5b-46ca-9ba9-8a6b257dc728",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 11:32:20"
+  },
+  {
+    "id": "b4bc1177-c9bf-4cd0-be63-910688b21d88",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/09 11:33:37"
+  },
+  {
+    "id": "c065c81e-cb09-4ef1-a8d3-029297d97bc4",
+    "username": "systemC2",
+    "message": "_tonkatsu_が再接続しました",
+    "timestamp": "2025/10/09 11:33:39"
+  },
+  {
+    "id": "45fd9b08-cc3f-465f-a281-fddc10635b07",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/09 11:33:56"
+  },
+  {
+    "id": "3922f3e8-7b77-44ba-8fd2-36749604e913",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/09 11:45:40"
+  },
+  {
+    "id": "e0143717-b4f1-4bde-b48d-930d28aef3ee",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/09 11:46:46"
+  },
+  {
+    "id": "b32c42b5-0c28-4c22-9635-ce0523d5aa23",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/09 11:47:18"
+  },
+  {
+    "id": "965a1a18-4bad-4fa3-ac61-e8cab0f6067c",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/09 11:47:36"
+  },
+  {
+    "id": "7879427c-8171-4489-bb54-905deab165bf",
+    "username": "systemC2",
+    "message": "shidakenが接続しました",
+    "timestamp": "2025/10/09 11:51:21"
+  },
+  {
+    "id": "03f70e04-8ac1-4152-8119-ed630e1b49f1",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/09 11:51:50"
+  },
+  {
+    "id": "0aea305f-0c24-4663-9e3b-9eb5ba4a877c",
+    "username": "shidaken",
+    "message": "<h1>hello</h1>",
+    "timestamp": "2025/10/9 11:51:58",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "36229dfc-cdcf-4781-82de-262a6b29ecc0",
+    "username": "shidaken",
+    "message": "無理か",
+    "timestamp": "2025/10/9 11:52:05",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "394b8d66-f7b5-4e5c-a952-e014b2224365",
+    "username": "たけ",
+    "message": "oh",
+    "timestamp": "2025/10/9 11:52:05",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "b6a2633c-35f3-4f32-ba00-4260ad76500d",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/09 11:52:34"
+  },
+  {
+    "id": "4d5c8816-a9e0-4e99-b117-9c02582c45ce",
+    "username": "shidaken",
+    "message": "まあまあちゃんとしてる",
+    "timestamp": "2025/10/9 11:52:45",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "54019317-8cc8-4abb-9b62-7e70f5cca707",
+    "username": "たけ",
+    "message": "\\30 hello \\",
+    "timestamp": "2025/10/9 11:52:54",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "63a91c09-2a59-4732-85ab-cb2af040dd9f",
+    "username": "systemC2",
+    "message": "shidakenが切断しました",
+    "timestamp": "2025/10/09 11:53:04"
+  },
+  {
+    "id": "967180a5-882e-45a0-9745-2b488b182291",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 11:53:08"
+  },
+  {
+    "id": "3cb6c75b-043f-490f-98dc-ebde0a8fba67",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/09 11:53:38"
+  },
+  {
+    "id": "5e06f797-849a-4cc2-b748-21cdfcac80a3",
+    "username": "systemC2",
+    "message": "shidakenが接続しました",
+    "timestamp": "2025/10/09 11:53:44"
+  },
+  {
+    "id": "f0c60d54-6cfd-42ef-ae4c-f58c6842fcf9",
+    "username": "systemC2",
+    "message": "shidakenが切断しました",
+    "timestamp": "2025/10/09 11:53:45"
+  },
+  {
+    "id": "98791232-3b76-4eab-a91f-8cecc4937a35",
+    "username": "赤き井",
+    "message": "使えるやん！！",
+    "timestamp": "2025/10/9 11:53:49",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "0ce3b51c-ef89-4b81-b55d-f33fb9c78700",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/09 11:54:14"
+  },
+  {
+    "id": "f708b598-9c86-4e54-b576-a428450ad67d",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/09 11:55:05"
+  },
+  {
+    "id": "860a4c0c-bd1e-4dde-95cb-aff0fdfb6688",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/09 11:55:29"
+  },
+  {
+    "id": "a866082e-8035-4ffc-ab0c-26a29981fae9",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 11:55:57"
+  },
+  {
+    "id": "bf716910-01e2-40d7-b14d-bed8e0c0adca",
+    "username": "systemC2",
+    "message": "赤き井が再接続しました",
+    "timestamp": "2025/10/09 11:55:59"
+  },
+  {
+    "id": "38a9528b-2e2d-4fce-b43a-53d4c805edfa",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 11:56:08"
+  },
+  {
+    "id": "6416954f-d2ea-4820-9635-4cb1107bdc1c",
+    "username": "systemC2",
+    "message": "赤き井が再接続しました",
+    "timestamp": "2025/10/09 11:56:09"
+  },
+  {
+    "id": "023f1f23-293e-4936-9cca-71ea74b89431",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 11:57:20"
+  },
+  {
+    "id": "7652f1ba-f855-459c-9378-00184d2ed78c",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/09 11:58:35"
+  },
+  {
+    "id": "779d4afc-f35d-4e31-8bd2-0e889b085b18",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 11:59:18"
+  },
+  {
+    "id": "894e68d1-6ad0-450e-8af9-cb327309982f",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/09 12:03:45"
+  },
+  {
+    "id": "7b7cb6d0-1c87-441f-b129-b86ef645414e",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 12:03:52"
+  },
+  {
+    "id": "f8f06515-d510-4f13-a29a-47228f1a4710",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 12:04:01"
+  },
+  {
+    "id": "55332c24-167c-41e7-9e4b-40b1c3d0058c",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/09 12:04:38"
+  },
+  {
+    "id": "98d20363-6e4c-4ce4-86cc-eee7ab305ad8",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 12:04:55"
+  },
+  {
+    "id": "8eb48520-e547-445f-9c55-b37ff4550d62",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/09 12:09:57"
+  },
+  {
+    "id": "a468824f-8db7-48b6-bae4-4da52ed16141",
+    "username": "赤き井",
+    "message": "先輩、まずいですよ！",
+    "timestamp": "2025/10/9 12:10:52",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": "7d0f8186-f5ee-4708-8cf2-a022ec50b340",
+    "replyMsg": "一応自分のわかめ貼っておく\n\\url https://wakame3.osc-fr1.scalingo.io/wkt\\"
+  },
+  {
+    "id": "5a81a410-9216-43c1-b0f2-0cad8a81c4ef",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 12:11:06"
+  },
+  {
+    "id": "c3ecfa41-aab2-4286-9a75-e9ee51b9d8ee",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/09 12:11:16"
+  },
+  {
+    "id": "8c262cc6-4f4a-4b09-8b71-39aa7ff140d1",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 12:11:18"
+  },
+  {
+    "id": "118e9bd6-a75a-4d27-ac92-9fc1d8a213f7",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 12:11:24"
+  },
+  {
+    "id": "81f47969-1977-4448-a314-8a2d876f0a3f",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/09 12:13:13"
+  },
+  {
+    "id": "66b20226-c0fb-4384-b88b-342740a41d51",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 12:13:31"
+  },
+  {
+    "id": "37076684-d258-41cc-92bf-2ff09f3a3548",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2025/10/09 12:30:17"
+  },
+  {
+    "id": "4dcef362-94d0-4d50-a697-120563f8b50c",
+    "username": "_tonkatsu_",
+    "message": "@shidaken 下のコマンド一覧をご覧ください",
+    "timestamp": "2025/10/9 12:33:10",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "eb63d0a7-ca90-4a5e-aa9a-3c51ef0b94a4",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/09 12:33:31"
+  },
+  {
+    "id": "8538b596-d183-4b2f-9341-7157ad6e60d4",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/09 12:33:55"
+  },
+  {
+    "id": "1e7c1e2b-bd60-44af-8039-ce1cd1d6bef5",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/09 12:34:03"
+  },
+  {
+    "id": "dfbfeb5d-32f1-4109-998f-e867f0e27b17",
+    "username": "systemC2",
+    "message": "_tonkatsu_が再接続しました",
+    "timestamp": "2025/10/09 12:34:04"
+  },
+  {
+    "id": "db415ef2-0326-4fc9-b3a8-89a18a4a3219",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/09 12:39:19"
+  },
+  {
+    "id": "7a25e08e-2a41-43e5-a06d-c8aa769b44ab",
+    "username": "systemC2",
+    "message": "_tonkatsu_が再接続しました",
+    "timestamp": "2025/10/09 12:39:20"
+  },
+  {
+    "id": "ee978f26-1ecd-48bf-bb38-535d0692bd41",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/09 12:39:36"
+  },
+  {
+    "id": "622e62e7-7261-46c5-9c2a-ee74143ad71c",
+    "username": "systemC2",
+    "message": "_tonkatsu_が再接続しました",
+    "timestamp": "2025/10/09 12:39:37"
+  },
+  {
+    "id": "ef049d34-3e19-4092-b762-8bd320548de3",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/09 12:42:25"
+  },
+  {
+    "id": "6cd2dbf4-c75e-4d9f-818c-55132912b894",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/09 12:42:44"
+  },
+  {
+    "id": "f6356b35-b388-4771-807f-97809b3f7e81",
+    "username": "systemC2",
+    "message": "EMLY6が接続しました",
+    "timestamp": "2025/10/09 12:42:55"
+  },
+  {
+    "id": "b08f9302-da7b-42a8-84ce-12122da0c562",
+    "username": "EMLY6",
+    "message": "きてみたよん",
+    "timestamp": "2025/10/9 12:43:18",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "8766309d-2398-4353-aefd-0ce4c65dc441",
+    "username": "_tonkatsu_",
+    "message": "@EMLY6 ktkr",
+    "timestamp": "2025/10/9 12:43:20",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "9c79d194-3316-443f-a8fc-95e7b8890633",
+    "username": "_tonkatsu_",
+    "message": "\\40 \\b \\#ff0000 YEAHHHHHHH!!!!!!!!!!!!!!!!!!!!!\\\\\\",
+    "timestamp": "2025/10/9 12:43:37",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "69c9b424-b202-4b67-9c04-36b99bbd9c8d",
+    "username": "EMLY6",
+    "message": "わお",
+    "timestamp": "2025/10/9 12:43:45",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "8bd48cef-67c9-44db-a355-fd75ed3efa0f",
+    "username": "systemC2",
+    "message": "EMLY6が切断しました",
+    "timestamp": "2025/10/09 12:43:52"
+  },
+  {
+    "id": "e4f13111-b51b-43f9-b203-a6d761febcb7",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/09 12:44:36"
+  },
+  {
+    "id": "4cd49fb8-a5fb-4507-bedd-a7d6e16d131d",
+    "username": "systemC2",
+    "message": "_tonkatsu_が再接続しました",
+    "timestamp": "2025/10/09 12:44:37"
+  },
+  {
+    "id": "6a9ac72e-80eb-4184-9549-cf2ccb588e96",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/09 12:49:20"
+  },
+  {
+    "id": "6cf3517c-7771-49b9-8a41-94e51dac76de",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/09 13:18:26"
+  },
+  {
+    "id": "a314eac0-e6d4-4c4f-bc80-261257b56e18",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/09 13:18:59"
+  },
+  {
+    "id": "2b80866b-63e3-42dc-a91d-28f3bc11f252",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/09 13:22:34"
+  },
+  {
+    "id": "4036108f-5628-4644-a4a3-1536e390bf56",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/09 13:23:34"
+  },
+  {
+    "id": "7cba65cb-f720-4f9c-b0c5-31ac47b3bf23",
+    "username": "systemC2",
+    "message": "赤き井が再接続しました",
+    "timestamp": "2025/10/09 13:23:35"
+  },
+  {
+    "id": "5975cc3f-16b1-4c54-86ee-f1ced374c72e",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2025/10/09 17:21:49"
+  },
+  {
+    "id": "b4da1c3b-f232-44e0-b096-6489925c44f7",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/09 17:22:03"
+  },
+  {
+    "id": "c7f2a2e0-161c-40a1-af12-561946b8b4a9",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2025/10/09 18:56:36"
+  },
+  {
+    "id": "6967cc29-da63-484f-8fd3-400ed339d149",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/09 18:56:52"
+  },
+  {
+    "id": "93db73c9-419d-4e5b-8c7f-f4dd69cba4db",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/09 20:45:08"
+  },
+  {
+    "id": "cafe8b73-9e5a-4d11-add1-1064473c9c90",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/09 20:45:20"
+  },
+  {
+    "id": "8eafdd56-0002-47ea-a48d-92a778dc1d8f",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2025/10/09 20:59:00"
+  },
+  {
+    "id": "8b11b3bd-81a1-4695-81f4-c2ab8b4b04d7",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/09 20:59:18"
+  },
+  {
+    "id": "d16f2b4f-fd88-4d95-aba3-6f8515dcb248",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/09 20:59:22"
+  },
+  {
+    "id": "6baf470b-a018-4b6e-bcb5-f1cd6286d5b9",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/09 20:59:53"
+  },
+  {
+    "id": "6fe5d701-0522-4739-b22d-eef751b4c0b0",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/10 07:03:40"
+  },
+  {
+    "id": "5616237b-3125-42b2-a885-9d5f515d9f77",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/10 07:03:46"
+  },
+  {
+    "id": "a88a9004-780d-41ba-852c-ee485b07f88d",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/10 07:04:49"
+  },
+  {
+    "id": "8c63e030-96a2-4299-b739-6d98987336d2",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/10 07:04:53"
+  },
+  {
+    "id": "fb270eac-05b6-4a56-8b71-a73d8094ccbc",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/10 09:18:28"
+  },
+  {
+    "id": "52d66f91-cdd5-426a-a146-3357f0c942bb",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/10 09:19:20"
+  },
+  {
+    "id": "7bc59b7e-c4f7-4998-8181-594c9322451a",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/10 09:30:21"
+  },
+  {
+    "id": "9525e2d5-c2b6-4a28-8433-80bf1a68a993",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/10 09:31:27"
+  },
+  {
+    "id": "2c17b4af-42bd-4648-bc74-30e4a662f203",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2025/10/10 09:46:51"
+  },
+  {
+    "id": "612db651-2c2e-4a93-baba-f06ed0d4355d",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/10 09:46:53"
+  },
+  {
+    "id": "0ee1d8cf-ae9b-446c-93ff-f133db1f50d9",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/10 10:03:56"
+  },
+  {
+    "id": "9b7a12e8-3d32-4706-8c81-215eda5bc644",
+    "username": "たけ",
+    "message": "新型コロタンかかった",
+    "timestamp": "2025/10/10 10:04:15",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "6288d40a-7c43-4c39-aaab-d63e8d75ffb6",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/10 10:20:35"
+  },
+  {
+    "id": "dfc80d75-02a7-4ec5-9e67-150b855d12c2",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/10 10:20:42"
+  },
+  {
+    "id": "45dfdb6d-7074-40fb-b716-a5ccdda2bd6a",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/10 10:22:58"
+  },
+  {
+    "id": "36db15b5-f421-479c-aa19-291f3d8f9e49",
+    "username": "赤き井",
+    "message": "俺はインフルエンザ😇",
+    "timestamp": "2025/10/10 10:26:09",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "2b465f53-a671-4a8a-a67c-41147acd0aab",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/10 10:26:17"
+  },
+  {
+    "id": "69470d91-d51b-4c4a-be2a-9101e1a9d711",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/10 10:57:29"
+  },
+  {
+    "id": "11e169a9-67c2-4cad-af9f-4862964ae8e9",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/10 10:57:56"
+  },
+  {
+    "id": "9e8589b2-3071-46e1-87f7-b6dde8b99de7",
+    "username": "systemC2",
+    "message": "Night-Officialが接続しました",
+    "timestamp": "2025/10/10 11:31:39"
+  },
+  {
+    "id": "d1f58b46-f7ed-4550-90be-d9de5c42988d",
+    "username": "Night-Official",
+    "message": "やあ",
+    "timestamp": "2025/10/10 11:31:47",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "7d023d15-1863-476b-853b-80d57b072324",
+    "username": "systemC2",
+    "message": "Night-Officialが切断しました",
+    "timestamp": "2025/10/10 11:32:17"
+  },
+  {
+    "id": "c9e0ac2b-bb12-4cdb-93c0-675c1504bb64",
+    "username": "systemC2",
+    "message": "Night-Officialが再接続しました",
+    "timestamp": "2025/10/10 11:32:18"
+  },
+  {
+    "id": "3cd3af87-41f4-4b12-8464-afd51db1df6e",
+    "username": "Night-Official",
+    "message": "ふぁいる",
+    "timestamp": "2025/10/10 11:32:41",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "105e43ce-2a8c-4839-904a-6999703e52cf",
+    "username": "systemC2",
+    "message": "Night-Officialが切断しました",
+    "timestamp": "2025/10/10 11:33:42"
+  },
+  {
+    "id": "a1abd027-5c94-43e3-8980-1882d9976080",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/10 11:36:54"
+  },
+  {
+    "id": "4c8edb33-8181-4d6c-a487-a94a2a509b6f",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/10 11:37:10"
+  },
+  {
+    "id": "3dae2144-826f-4a33-a85c-5611645e5caa",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/10 11:59:47"
+  },
+  {
+    "id": "5f704866-21a9-4fca-ad7d-9aa469bb8f66",
+    "username": "たけ",
+    "message": "\\photo /uploads/1760065200315-rnrkcfcp17k.jpeg|200\\",
+    "timestamp": "2025/10/10 12:00:01",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "812a0057-abcf-4ee8-97d4-7198098a13fe",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/10 12:00:31"
+  },
+  {
+    "id": "622a6541-7c93-4f9c-9c8f-06a5ad370fa8",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/10 12:07:09"
+  },
+  {
+    "id": "86af9f01-9d9b-4e69-800b-1ba2001cd36e",
+    "username": "赤き井",
+    "message": "やりますねぇヤリマスヤリマス",
+    "timestamp": "2025/10/10 12:08:10",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": "5f704866-21a9-4fca-ad7d-9aa469bb8f66",
+    "replyMsg": "\\photo /uploads/1760065200315-rnrkcfcp17k.jpeg|200\\"
+  },
+  {
+    "id": "c0876b4b-9248-4241-b3a4-6013e1612cdb",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/10 12:08:44"
+  },
+  {
+    "id": "eb04d126-c377-4591-840f-92908bd061f4",
+    "username": "赤き井",
+    "message": "変な意味はないよ☆",
+    "timestamp": "2025/10/10 12:08:48",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": "86af9f01-9d9b-4e69-800b-1ba2001cd36e",
+    "replyMsg": "やりますねぇヤリマスヤリマス"
+  },
+  {
+    "id": "81b5e4b8-3252-44e8-86a0-58ddff074ac5",
+    "username": "たけ",
+    "message": "見えますねぇ",
+    "timestamp": "2025/10/10 12:09:02",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "2ce20c5c-4b44-4f55-b83c-aaae34df966e",
+    "username": "赤き井",
+    "message": "何を四天王！",
+    "timestamp": "2025/10/10 12:09:23",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": "81b5e4b8-3252-44e8-86a0-58ddff074ac5",
+    "replyMsg": "見えますねぇ"
+  },
+  {
+    "id": "e5963496-55db-44e6-b03e-2bc1dd7489d9",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/10 12:10:20"
+  },
+  {
+    "id": "2b67dd05-56cf-4182-ab95-95a37d46b690",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/10 12:11:00"
+  },
+  {
+    "id": "2207366b-2b28-4297-8093-b64e5a95477d",
+    "username": "systemC2",
+    "message": "yoshikunTAが接続しました",
+    "timestamp": "2025/10/10 13:34:04"
+  },
+  {
+    "id": "7db37fb5-3f33-482a-bb0e-966f40ad3729",
+    "username": "systemC2",
+    "message": "yoshikunTAが切断しました",
+    "timestamp": "2025/10/10 13:35:15"
+  },
+  {
+    "id": "d948cbcb-1101-49c2-b31a-f287e976ca0b",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/10 14:02:09"
+  },
+  {
+    "id": "932a9c88-7456-4ba0-9fca-c34a2b3c22c5",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/10 14:05:31"
+  },
+  {
+    "id": "a2ffea33-95e3-4029-a5ae-678e74a8d108",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/10 15:55:56"
+  },
+  {
+    "id": "60ece8ec-54b6-4d9d-9674-287e76d5392e",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/10 15:56:50"
+  },
+  {
+    "id": "bce053b0-beb0-43bc-8783-2d56f883e7fc",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/10 17:08:26"
+  },
+  {
+    "id": "dcea7d63-3d29-4b55-9b48-e3308a40867a",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/10 17:21:26"
+  },
+  {
+    "id": "7b27fee5-cd28-45a1-a105-573b382b8456",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/10 17:22:45"
+  },
+  {
+    "id": "07cab18a-dc2d-48c6-bb55-3eda47bcc3a3",
+    "username": "赤き井",
+    "message": "\\photo /uploads/1760084575224-g224d9j0fne.png|200\\",
+    "timestamp": "2025/10/10 17:22:56",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "738fde4c-7b41-4100-aa32-b41b4a263041",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2025/10/11 08:49:15"
+  },
+  {
+    "id": "491e2a0d-e8b6-4849-abc3-ac3b1741bbe4",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/11 08:51:07"
+  },
+  {
+    "id": "1b9afc9e-6f33-4091-8b20-b3dd3a7af4b6",
+    "username": "systemC2",
+    "message": "_tonkatsu_が再接続しました",
+    "timestamp": "2025/10/11 08:51:08"
+  },
+  {
+    "id": "d9b786ff-212d-4814-a696-2707e4cda9f7",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/11 08:52:15"
+  },
+  {
+    "id": "fd53e13c-1c32-4fb0-b051-9a31abb6d26c",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2025/10/11 08:52:30"
+  },
+  {
+    "id": "fa1380b6-fc05-4972-85ea-3cddd20736dc",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/11 08:53:25"
+  },
+  {
+    "id": "052b5a04-4da3-4821-8ba2-17fbb36fb800",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2025/10/11 08:54:15"
+  },
+  {
+    "id": "e4cf812e-3c74-41c8-9fd8-dbe7866a8c50",
+    "username": "_tonkatsu_",
+    "message": "test\n\\video /uploads/1760140468892-kjdntbwlojs.mp4|300\\",
+    "timestamp": "2025/10/11 8:54:38",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "ba32c481-253f-4897-8a80-597c6b3f9584",
+    "username": "_tonkatsu_",
+    "message": "良好",
+    "timestamp": "2025/10/11 8:56:30",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "8d8abc3f-e663-482d-8620-be5a7660e070",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/11 08:58:55"
+  },
+  {
+    "id": "566c4d54-b974-42c7-b5d7-9140eb316491",
+    "username": "systemC2",
+    "message": "yoshikunTAが接続しました",
+    "timestamp": "2025/10/11 09:13:05"
+  },
+  {
+    "id": "28413cc8-03e2-4358-8547-eee36b9ea97e",
+    "username": "systemC2",
+    "message": "yoshikunTAが切断しました",
+    "timestamp": "2025/10/11 09:14:29"
+  },
+  {
+    "id": "02e02f7a-3cc5-41f0-aa54-5cc238b5914a",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/11 10:32:14"
+  },
+  {
+    "id": "1ad35215-36b9-4b77-8e12-11af8d9567b5",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/11 10:33:11"
+  },
+  {
+    "id": "fb5be9c0-dcb8-429b-bc80-6e3d8db6442a",
+    "username": "systemC2",
+    "message": "赤き井が再接続しました",
+    "timestamp": "2025/10/11 10:33:12"
+  },
+  {
+    "id": "08f8d9fc-9d13-4a09-a4d8-621ec2b8330b",
+    "username": "赤き井",
+    "message": "\\photo /uploads/1760146519835-97xtwl9zujg.png|200\\",
+    "timestamp": "2025/10/11 10:35:21",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "bcbc46c7-a38e-467c-9049-e6cc1992c72e",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/11 10:38:29"
+  },
+  {
+    "id": "f57e1b66-9888-45d4-8067-965bc4885d53",
+    "username": "systemC2",
+    "message": "赤き井が再接続しました",
+    "timestamp": "2025/10/11 10:38:30"
+  },
+  {
+    "id": "c4cfc328-8ba2-464d-b24b-35c3175dd75c",
+    "username": "赤き井",
+    "message": "\\photo /uploads/1760146747145-qkkoqm8a3m.png|200\\",
+    "timestamp": "2025/10/11 10:39:08",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "7d072402-3788-4300-852b-95491da9ddf2",
+    "username": "赤き井",
+    "message": "きんじょうほうこくしてくで",
+    "timestamp": "2025/10/11 10:40:11",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "f9621b13-80aa-4388-8567-9b3f3c3dded7",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/11 10:40:56"
+  },
+  {
+    "id": "2aa93650-f085-4829-86e2-8e8ce30548a4",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2025/10/11 11:10:54"
+  },
+  {
+    "id": "dac87004-03e5-4fc1-9172-61cde718f389",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2025/10/11 11:12:27"
+  },
+  {
+    "id": "432310df-2fec-47ae-93ae-092d54c4ba14",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2025/10/11 11:58:35"
+  },
+  {
+    "id": "4e29e871-eb55-443e-aafd-0ffcadd589ee",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2025/10/11 12:01:46"
+  },
+  {
+    "id": "742a7fc5-62cd-4dc4-b675-d5bb7a82fb73",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2025/10/11 12:15:26"
+  },
+  {
+    "id": "6863832e-88a1-4f9e-9582-ffe756d634e4",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2025/10/11 12:16:34"
+  },
+  {
+    "id": "fd952a9d-ff14-457d-b314-f95b52aa0e32",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2025/10/11 12:25:40"
+  },
+  {
+    "id": "83e2eaf1-e376-49fe-9110-fa27c9600d15",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2025/10/11 12:27:39"
+  },
+  {
+    "id": "2cc23bf0-ea37-49c8-83fc-8cfdecfd6f84",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2025/10/11 12:34:17"
+  },
+  {
+    "id": "0b04369e-9f80-4558-a97b-61389f767fa6",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2025/10/11 12:36:01"
+  },
+  {
+    "id": "b5dcec71-5ec6-426d-a7a0-234cb3f0db86",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2025/10/11 12:43:30"
+  },
+  {
+    "id": "ed3a33b5-e896-4f8a-8461-89754ed7aba1",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2025/10/11 12:46:57"
+  },
+  {
+    "id": "8239054a-194d-4224-bdb1-db98aca9e548",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/11 14:13:20"
+  },
+  {
+    "id": "ad723708-f8f0-4800-af1f-a6bdc3a36e4c",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/11 14:13:32"
+  },
+  {
+    "id": "77d1a35e-c8c5-4d74-94d6-88ccf35eb844",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/11 14:13:53"
+  },
+  {
+    "id": "50989b54-d157-4dd1-9481-7d2826db4eab",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/11 14:15:07"
+  },
+  {
+    "id": "2da5d5c6-8c87-4bff-9d25-295215ecf415",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/11 14:17:36"
+  },
+  {
+    "id": "8f5f3ac2-5554-4f5a-a868-6aa281daf1c7",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/11 14:18:28"
+  },
+  {
+    "id": "f4f55924-4c1d-4a05-9220-b226134fc628",
+    "username": "systemC2",
+    "message": "たけが再接続しました",
+    "timestamp": "2025/10/11 14:18:29"
+  },
+  {
+    "id": "355709f2-db77-4ee2-b3d7-7f3c8a11ea1d",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/11 14:23:45"
+  },
+  {
+    "id": "7d9ef5ed-40ba-4b6b-a0c2-2f73dbac992f",
+    "username": "systemC2",
+    "message": "たけが再接続しました",
+    "timestamp": "2025/10/11 14:23:46"
+  },
+  {
+    "id": "08b3094e-952b-4a96-895b-25e09ac92ba1",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/11 14:25:56"
+  },
+  {
+    "id": "1ee7db93-3ede-410b-ab76-68c463d9429b",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2025/10/11 19:07:21"
+  },
+  {
+    "id": "1f2d21c6-baf3-463e-8b1f-1d9edfd06f3d",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/11 19:07:33"
+  },
+  {
+    "id": "bac7375b-97f3-4297-8709-9f24056d6e19",
+    "username": "systemC2",
+    "message": "たけが再接続しました",
+    "timestamp": "2025/10/11 19:07:33"
+  },
+  {
+    "id": "927bcf18-5bf9-4a60-9309-5fd26571c754",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2025/10/11 19:07:42"
+  },
+  {
+    "id": "8b5f4d01-30c6-4a6b-8af7-ed1a7ff102ac",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2025/10/12 10:13:47"
+  },
+  {
+    "id": "6daa6e96-9320-4d8b-9a3f-92c4b4754745",
+    "username": "_tonkatsu_",
+    "message": "近況報告(きんきょうほうこく)",
+    "timestamp": "2025/10/12 10:14:29",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": "7d072402-3788-4300-852b-95491da9ddf2",
+    "replyMsg": "きんじょうほうこくしてくで"
+  },
+  {
+    "id": "6f2f2ab2-6f55-44ec-a145-01341ca554d0",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/12 10:18:52"
+  },
+  {
+    "id": "3aa9b8e1-5a28-4b23-8d23-fd72ddeb118b",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2025/10/12 11:18:12"
+  },
+  {
+    "id": "10675fd0-9ca1-45db-b766-1f4757c2b079",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/12 11:18:31"
+  },
+  {
+    "id": "68d71f2f-add3-453e-8a12-b145e5b0cdb1",
+    "username": "systemC2",
+    "message": "_tonkatsu_が再接続しました",
+    "timestamp": "2025/10/12 11:18:32"
+  },
+  {
+    "id": "2022580a-a759-4658-8cc5-f7c04a7e0762",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/12 11:23:19"
+  },
+  {
+    "id": "9f4295a2-f49e-4721-94b1-39b7935acf8f",
+    "username": "systemC2",
+    "message": "_tonkatsu_が再接続しました",
+    "timestamp": "2025/10/12 11:23:21"
+  },
+  {
+    "id": "b96c0d89-73a3-45c4-832a-6a4010c34676",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/12 11:26:26"
+  },
+  {
+    "id": "84c1d4d3-ae27-4d37-ae29-6d4997c6a3c8",
+    "username": "systemC2",
+    "message": "床が接続しました",
+    "timestamp": "2025/10/12 12:36:27"
+  },
+  {
+    "id": "23b51dcb-b61d-462e-81ff-3942c2b28548",
+    "username": "床",
+    "message": "\\40 過疎りすぎて死ぬ\\",
+    "timestamp": "2025/10/12 12:39:50",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "2d46c9f7-77c5-401f-86b2-f2e356f1dc88",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2025/10/12 15:53:30"
+  },
+  {
+    "id": "105f42db-76c5-4ebf-aec8-230954c05ea2",
+    "username": "_tonkatsu_",
+    "message": "…",
+    "timestamp": "2025/10/12 15:53:52",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": "23b51dcb-b61d-462e-81ff-3942c2b28548",
+    "replyMsg": "\\40 過疎りすぎて死ぬ\\"
+  },
+  {
+    "id": "1dc85885-0dd1-4c1e-b630-45964faa0be7",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2025/10/12 15:56:21"
+  },
+  {
+    "id": "4946ef0a-1de4-43ae-82eb-cf0dbf4b31f4",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/13 11:33:35"
+  },
+  {
+    "id": "34709f08-c8d4-4641-8977-835b5cd3c478",
+    "username": "赤き井",
+    "message": "急いでて変換できんかったんや",
+    "timestamp": "2025/10/13 11:34:14",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": false,
+    "replyTo": "6daa6e96-9320-4d8b-9a3f-92c4b4754745",
+    "replyMsg": "近況報告(きんきょうほうこく)"
+  },
+  {
+    "id": "c43c2d2f-9297-41f9-889e-3596e15d3ca3",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/13 11:34:56"
+  },
+  {
+    "id": "ba1f3d20-dc2e-4af7-ab39-15f06f405bda",
+    "username": "systemC2",
+    "message": "赤き井が接続しました",
+    "timestamp": "2025/10/13 11:35:26"
+  },
+  {
+    "id": "8c9917ab-da1f-44cb-bca6-781ced66c879",
+    "username": "systemC2",
+    "message": "赤き井が切断しました",
+    "timestamp": "2025/10/13 11:35:48"
+  },
+  {
+    "id": "7a3cda26-9e78-4725-a851-ca5b0e1e3b55",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2025/10/13 13:02:40"
+  },
+  {
+    "id": "e69fc99c-575f-485b-9586-bf4f5bc66136",
+    "username": "_tonkatsu_",
+    "message": "×きんじょう\n◯きんきょう",
+    "timestamp": "2025/10/13 13:03:23",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "replyTo": "34709f08-c8d4-4641-8977-835b5cd3c478",
+    "replyMsg": "急いでて変換できんかったんや"
+  }
+]

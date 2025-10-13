@@ -1,0 +1,84 @@
+<%- include("../settings/header") %>
+<%- include("../settings/nav") %>
+<%- include("../settings/top") %>
+
+<p>
+  画像をアップロードして、他のWebサイトやチャット・メッセージサービスに使うことができます。
+</p>
+<p style="color: #ff0000;">
+  ※ご自身のWebサイトへの画像挿入に使用することを想定しています。
+</p>
+
+<form id="image-upload-form" enctype="multipart/form-data">
+  <input type="file" name="image" id="image-input" accept="image/*" required>
+  <h2>
+    <input class="loginText" type="text" id="filename" name="filename" placeholder="ファイル名（拡張子不要、任意）">
+  </h2>
+  <button type="submit">アップロード</button>
+</form>
+
+<br>
+<br>
+
+<div id="upload-result">
+  <% if (error) { %>
+    <p style="color:red;"><%= error %></p>
+  <% } %>
+
+  <% if (url) { %>
+    <p>アップロード成功！</p>
+    <p>画像URL: <a href="<%= url %>" target="_blank"><%= url %></a></p>
+    <img id="upload-preview" alt="アップロード画像" style="max-width:300px; display:block; margin-top:10px;">
+  <% } %>
+</div>
+</div>
+
+<script>
+  document.getElementById("image-upload-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    
+    const fileInput = document.getElementById("image-input");
+    const filenameInput = document.getElementById("filename");
+  
+    if (!fileInput.files[0]) {
+      alert("画像を選択してください。");
+      return;
+    }
+  
+    const filename = filenameInput.value.trim();
+    const invalidPattern = /[\\\/:*?"'<>|]/;
+    if (invalidPattern.test(filename)) {
+      alert("ファイル名に使用できない文字が含まれています。");
+      return;
+    }
+  
+    const formData = new FormData();
+    formData.append("filename", filename);
+    formData.append("image", fileInput.files[0]);
+    
+    fetch("/uploads", {
+      method: "POST",
+      body: formData
+    })
+    .then(res => res.json())
+    .then(data => {
+      const resultDiv = document.getElementById("upload-result");
+      const url = `${location.origin}${data.url}`;
+      if (data.error) {
+        resultDiv.innerHTML = `<p style="color:red;">${data.error}</p>`;
+      } else {
+        resultDiv.innerHTML = `
+          <p>アップロード成功！</p>
+          <p>画像URL: <a href="${url}" target="_blank">${url}</a></p>
+          <img src="${data.url}" alt="アップロード画像" style="max-width:300px; display:block; margin-top:10px;">
+        `;
+      };
+    })
+    .catch(err => {
+      console.error(err);
+      alert("アップロード中にエラーが発生しました。");
+    });
+  });
+  </script>  
+
+<%- include("../settings/footer") %>
