@@ -16,25 +16,26 @@
 
 <p id="caution" style="color: red; display: none;"></p>
 
-<p id="title" style="font-weight: bold; display: none;"></p>
-<video id="player" width="700px" style="display: none; margin-top: 10px;" controls playsinline></video>
+<p id="title" style="font-weight: normal; display: none;"></p>
 <br>
-<button id="download" style="display: none;" class="blueButton25">動画をダウンロード</button>
+<a id="link" style="display: none;" class="blueButton25">動画をダウンロード</a>
 
 <script>
   const button = document.getElementById("enter")
   const ytUrl = document.getElementById("ytUrl");
-  const player = document.getElementById("player");
+  //const player = document.getElementById("player");
+  const link = document.getElementById("link");
   const title = document.getElementById("title");
   const caution = document.getElementById("caution");
-  const dlBtn = document.getElementById("download");
+  //const dlBtn = document.getElementById("download");
   let rawTitle;
   let videoId;
 	button.addEventListener("click", async function() {
     player.style.display = "none";
-    title.style.display = "none";
+    title.style.display = "inline";
+    title.textContent = "動画を取得中…";
     caution.style.display = "none";
-    dlBtn.style.display = "none";
+    link.style.display = "none";
     const s = ytUrl.value;
     try{
       try{
@@ -58,20 +59,19 @@
       ) {
         throw new Error("不正なストリームURLです");
       }
-      player.src = res.formatStreams[0].url;
-      player.style.display = "inline"
       title.textContent = res.title + " / " + res.author;
-      title.style.display = "inline";
-      dlBtn.style.display = "inline";
+      title.style.fontWeight = "bold";
+      link.style.display = "inline";
+      link.href = res.formatStreams[0].url;
       rawTitle = res.title;
-      player.load();
     } catch (e) {
       caution.textContent = "エラー: " + e.message;
       caution.style.display = "inline";
+      title.style.display = "none";
     }
 	});
 
-  dlBtn.addEventListener("click", async function() {
+  /*dlBtn.addEventListener("click", async function() {
     if (!player.src) {
       alert("動画が読み込まれていません");
       return;
@@ -84,7 +84,7 @@
     } catch (e) {
       alert(e.message);
     }
-  });
+  });*/
 </script>  
 
 <%- include("../settings/footer") %>
