@@ -1,0 +1,67 @@
+<div class="nav">
+  <a
+    href="<%= em === 'true' ? '/empass' : '/' %>"
+    class="<%= tag === 'index' ? 'active' : '' %>"
+    >TOP</a
+  >
+  <a
+    href="<%= em === 'true' ? '/empass/my' : '/my' %>"
+    class="<%= tag === 'my' ? 'active' : '' %>"
+    >自己紹介</a
+  >
+  <a
+    href="<%= em === 'true' ? '/empass/projects' : '/projects' %>"
+    class="<%= tag === 'projects' ? 'active' : '' %>"
+    ><% if (tag === 'projects') { %>Scratchの作品<% } else { %><span style="color: #f00; font-weight: bold;">Scratchの作品</span><% } %></a
+  >
+  <a
+    href="<%= em === 'true' ? '/empass/contact' : '/contact' %>"
+    class="<%= tag === 'contact' ? 'active' : '' %>"
+    >お問い合わせ</a
+  >
+  <a
+    href="<%= em === 'true' ? '/empass/games' : '/games' %>"
+    class="<%= tag === 'games' ? 'active' : '' %>"
+    >ゲームをプレイ</a
+  >
+  <a
+    href="<%= em === 'true' ? '/empass/chat' : '/chat' %>"
+    class="<%= tag === 'chat' ? 'active' : '' %>"
+    >tonkatsuチャット</a
+  >
+  <a
+    href="<%= em === 'true' ? '/empass/updates' : '/updates' %>"
+    class="<%= tag === 'updates' ? 'active' : '' %>"
+    >ページ更新履歴</a
+  >
+  <a
+    href="<%= em === 'true' ? '/empass/service' : '/service' %>"
+    class="<%= tag === 'service' || page === 'service/upload' || page === 'service/clock' ? 'active' : '' %>"
+    >Webサービス</a
+  >
+  <a
+    href="<%= em === 'true' ? '/empass/break' : '/break' %>"
+    class="<%= tag === 'break' ? 'active' : '' %>"
+    >履歴破壊</a
+  >
+
+  <% if (tag === 'constructing') { %>
+  <a
+    href="<%= em === 'true' ? '/empass/constructing' : '/constructing' %>"
+    class="active"
+    >建設中</a
+  >
+
+  <% } %> <% if (tag === 'constructing1') { %>
+  <a
+    href="<%= em === 'true' ? '/empass/constructing1' : '/constructing1' %>"
+    class="active"
+    >建設中</a
+  >
+
+  <% } %> <% if (tag === 'error') { %>
+  <a href="<%= em === 'true' ? '/empass/error' : '/error' %>" class="active"
+    >404</a
+  >
+  <% } %>
+</div>
