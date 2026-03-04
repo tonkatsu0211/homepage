@@ -24,13 +24,19 @@
 
   <br id="ch1">
   <h1 id="chText" style="font-size: 30px; color: #ff0000 !important;">
+    【重要】クレジット不足による凍結の関係で、tonkatsuチャット最高管理者選挙の投票日を3/8〜3/14に変更します。
+  </h1>
+  <br id="ch2">
+
+<!--
+  <br id="ch1">
+  <h1 id="chText" style="font-size: 30px; color: #ff0000 !important;">
     製作者の環境で<a href="https://65yzth-3000.csb.app" target="_blank" style="text-decoration: none; color: #f00; border-bottom: 1px solid #f00;">https://65yzth-3000.csb.app</a>が規制されたため、
     ページを<a href="/" style="text-decoration: none; color: #f00; border-bottom: 1px solid #f00;">https://wf8xw3-3000.csb.app</a>に移動しました。<br>
     ブックマーク等している場合は変更をお願いします。
   </h1>
   <br id="ch2">
 
-<!--
   <br id="ch1" style="display: none;">
     <h1 id="chText" style="font-size: 30px; color: #ff0000 !important; display: none;">
       yyyy/mm/ddに<a href="/chat/terms" target="_blank" style="text-decoration: none; color: #f00; border-bottom: 1px solid #f00;">tonkatsuチャット利用規約</a>を改定いたします。<br>
@@ -38,21 +44,13 @@
       ご確認をお願いします。
     </h1>
   <br id="ch2" style="display: none;">
-
+  -->
   <script>
-    const pa = "<%= page %>";
-    if (
-      pa === "chat/lobby" ||
-      pa === "chat/main" ||
-      pa === "chat" ||
-      pa === "chat/login" ||
-      pa === "chat/signup" ||
-      pa === "chat/rules" ||
-      pa === "chat/ban"
-    ) {
-      document.getElementById("chText").style.display = "inline";
-      document.getElementById("ch1").style.display = "inline";
-      document.getElementById("ch2").style.display = "inline";
+    const pa = "<%= tag %>";
+    const canVote = "<%= canVote %>";
+    if (tag != "chat" && canVote != "true") {
+      document.getElementById("chText").style.display = "none";
+      document.getElementById("ch1").style.display = "none";
+      document.getElementById("ch2").style.display = "none";
     }
   </script>
--->

@@ -264,6 +264,19 @@ router.use((req, res, next) => {
   }
 });
 
+const username = req.cookies.user;
+let uid = "unknown";
+
+if (username && usersData.users[username]) {
+  uid = usersData.users[username].uid || "unknown";
+}
+let canVote;
+if (canVoteList.includes(uid) && req.cookies.voted != true) {
+  canVote = true;
+} else {
+  canVote = false;
+};
+
 router.get("/", (req, res) => {
   const usersData = JSON.parse(fs.readFileSync(usersPath, "utf-8"));
   const from = req.query.f || "";
@@ -307,6 +320,7 @@ router.get("/", (req, res) => {
         page: "chat",
         top: "tonkatsuチャットへようこそ",
         from,
+        canVote
       },
       tag,
       "chat"
@@ -368,7 +382,8 @@ router.get(["/main", "/main.html"], (req, res) => {
       uid: uid,
       from,
       banned: bannedUsers,
-      superAdmin
+      superAdmin,
+      canVote
     },
     tag,
     "chat"
@@ -385,6 +400,7 @@ router.get(["/login", "/login.html"], (req, res) => {
       page: "chat/login",
       top: "tonkatsuチャットにログイン",
       err: "none",
+      canVote
     },
     tag,
     "chat"
@@ -401,6 +417,7 @@ router.get(["/signup", "/signup.html"], (req, res) => {
       page: "chat/signup",
       top: "tonkatsuチャットにサインアップ",
       err: "none",
+      canVote
     },
     tag,
     "chat"
@@ -420,6 +437,7 @@ router.get(["/terms", "/terms.html"], (req, res) => {
       title: "利用規約",
       page: "chat/terms",
       top: "tonkatsuチャット利用規約",
+      canVote
     },
     tag,
     "chat"
@@ -477,26 +495,11 @@ router.get(["/ban", "/ban.html"], (req, res) => {
 });
 
 router.get(["/vote", "/vote.html"], (req, res) => {
-  const username = req.cookies.user;
-  let uid = "unknown";
-
-  if (username && usersData.users[username]) {
-    uid = usersData.users[username].uid;
-  }
-
   loadBannedUsers();
   if (bannedUsers.includes(uid)) {
     res.cookie("ban", "true", { httpOnly: false, path: "/" });
     res.status(403).redirect("/chat/ban");
   } else {
-    let canVote;
-    console.log(`req.cookies.voted: ${req.cookies.voted}`);
-    console.log(req.cookies.voted != true);
-    if (canVoteList.includes(uid) && req.cookies.voted != true) {
-      canVote = true;
-    } else {
-      canVote = false;
-    };
     render(req,
       res,
       "vote",
@@ -520,7 +523,7 @@ router.post("/vote", express.urlencoded({ extended: true }), (req, res) => {
   if (firstSpace !== -1) {
     date = rawDate.slice(0, firstSpace).trim();
   }
-  const voteDates = ["2026/2/19", "2026/02/19", "2026/3/1", "2026/3/2", "2020/3/3", "2026/3/4", "2026/3/5", "2026/3/6", "2026/3/7", "2026/03/01", "2026/03/02", "2020/03/03", "2026/03/04", "2026/03/05", "2026/03/06", "2026/03/07"];
+  const voteDates = ["2026/3/8", "2026/3/9", "2026/3/10", "2026/3/11", "2026/3/12", "2026/3/13", "2026/3/14", "2026/03/08", "2026/03/09"];
   const username = req.cookies.user;
   let uid = "unknown";
 
