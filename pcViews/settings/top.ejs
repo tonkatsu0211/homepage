@@ -47,8 +47,10 @@
   -->
   <script>
     const pa = "<%= tag %>";
-    const canVote = "<%= canVote %>";
-    if (tag != "chat" && canVote != "true") {
+    let canVote;
+    if (tag != "chat") {
+      canVote == "<%= canVote %>";
+      if (canVote != "true") return;
       document.getElementById("chText").style.display = "none";
       document.getElementById("ch1").style.display = "none";
       document.getElementById("ch2").style.display = "none";
