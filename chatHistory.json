@@ -1732,5 +1732,24 @@
     "username": "systemC2",
     "message": "_tonkatsu_が接続しました",
     "timestamp": "2026/02/20 14:56:10"
+  },
+  {
+    "id": "545aca2e-d347-4e93-ba8a-ebf854162d84",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2026/03/04 11:49:00"
+  },
+  {
+    "id": "7593d652-6c01-467c-ac62-f8ece974429c",
+    "username": "_tonkatsu_",
+    "uid": "'UID'-tonkatsu",
+    "message": "\\b \\30 \\#f00 【重要】クレジット不足による凍結の関係で、tonkatsuチャット最高管理者選挙の投票日を3/8〜3/14に変更します。\\\\\\",
+    "timestamp": "2026/3/4 11:49:48",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
   }
 ]
