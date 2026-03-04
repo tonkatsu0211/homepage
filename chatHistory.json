@@ -1751,5 +1751,56 @@
     "superAdmin": false,
     "replyTo": null,
     "replyMsg": null
+  },
+  {
+    "id": "1e58efef-b80e-48a5-9936-adf1c2e032d2",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2026/03/04 11:50:01"
+  },
+  {
+    "id": "236c7209-0654-4b18-8d69-aaaaa135df4a",
+    "username": "systemC2",
+    "message": "床が接続しました",
+    "timestamp": "2026/03/04 13:12:27"
+  },
+  {
+    "id": "b0bdde37-0a25-4925-ab4e-c11c43b57ab5",
+    "username": "床",
+    "uid": "'UID'-2593f046-0969-4341-ae43-76c3098e7c1a",
+    "message": "おお〜",
+    "timestamp": "2026/3/4 13:12:41",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "6580c8df-8541-4ae3-a3eb-99176b06a1f1",
+    "username": "床",
+    "uid": "'UID'-2593f046-0969-4341-ae43-76c3098e7c1a",
+    "message": "すまんだけど俺明日iPad返却なんよ",
+    "timestamp": "2026/3/4 13:13:08",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "b526b951-8fa5-43ea-aa97-76209cba6b51",
+    "username": "床",
+    "uid": "'UID'-2593f046-0969-4341-ae43-76c3098e7c1a",
+    "message": "しばらく来れんかも",
+    "timestamp": "2026/3/4 13:13:20",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
   }
 ]
