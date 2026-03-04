@@ -15,6 +15,7 @@ const { Server } = require("socket.io");
 const io = new Server(http);
 const tag = "chat"
 const canVoteList = ["'UID'-tonkatsu", "'UID'-793d3685-d485-43b7-9f32-dc5e9921969f", "'UID'-415067d7-2f34-4910-a80c-7d020308666e", "'UID'-5d7cd6cd-9667-45f6-a28c-3c0550262752", "'UID'-94b50222-4c1c-4a73-b065-9eb0aad105ae", "'UID'-a341944f-e06b-4443-80eb-ee6285163739", "'UID'-b67df19e-23c8-4362-9d6c-f9f6f2593420", "'UID'-b475ba14-e87f-4129-a570-4132dd84c34d"];
+let canVote;
 
 /*
 bcrypt.hash("x_Sanon_x", 10).then(hash => {
@@ -244,6 +245,14 @@ router.use((req, res, next) => {
   }
 
   loadBannedUsers();
+  if (username && usersData.users[username]) {
+    uid = usersData.users[username].uid || "unknown";
+  }
+  if (canVoteList.includes(uid) && req.cookies.voted != true) {
+    canVote = true;
+  } else {
+    canVote = false;
+  };
 
   if (!ban) {
     res.cookie("ban", "false", { httpOnly: false, path: "/", maxAge: 365 * 24 * 60 * 60 * 1000});
@@ -264,18 +273,7 @@ router.use((req, res, next) => {
   }
 });
 
-const username = req.cookies.user;
-let uid = "unknown";
 
-if (username && usersData.users[username]) {
-  uid = usersData.users[username].uid || "unknown";
-}
-let canVote;
-if (canVoteList.includes(uid) && req.cookies.voted != true) {
-  canVote = true;
-} else {
-  canVote = false;
-};
 
 router.get("/", (req, res) => {
   const usersData = JSON.parse(fs.readFileSync(usersPath, "utf-8"));
