@@ -108,7 +108,7 @@ webPush.setVapidDetails("mailto:example@example.com", publicKey, privateKey);
 
 const subscriptions = [];
 
-const chatMaxLength = 200;
+const chatMaxLength = 300;
 
 app.set("trust proxy", true);
 
