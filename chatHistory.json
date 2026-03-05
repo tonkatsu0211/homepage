@@ -1802,5 +1802,36 @@
     "superAdmin": false,
     "replyTo": null,
     "replyMsg": null
+  },
+  {
+    "id": "b6c1aa3c-12a4-4178-b617-b288a68ed0f0",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2026/03/05 09:53:45"
+  },
+  {
+    "id": "d2db6b18-138d-424a-a26b-4ab084cf85c1",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2026/03/05 09:54:56"
+  },
+  {
+    "id": "6412c911-d96a-4d11-977b-2024347b8cb5",
+    "username": "systemC2",
+    "message": "たけが接続しました",
+    "timestamp": "2026/03/05 10:11:05"
+  },
+  {
+    "id": "6e60a732-833a-4d73-80f0-2c276e1ae09d",
+    "username": "たけ",
+    "uid": "'UID'-fd1cca3e-3c5d-4f8c-bd53-e298efb6fdc2",
+    "message": "選挙って特設ページとかが出来んの？",
+    "timestamp": "2026/3/5 10:11:40",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
   }
 ]
