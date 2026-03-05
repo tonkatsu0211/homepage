@@ -18,7 +18,9 @@
 
 <p id="title" style="font-weight: normal; display: none;"></p>
 <br>
-<a id="link" style="display: none;" class="blueButton25" target="_blank">動画を再生</a>
+<div style="padding-bottom: 5px;"></div>
+  <a id="link" style="display: none;" class="blueButton30" target="_blank">動画を再生</a>
+</div>
 
 <script>
   const button = document.getElementById("enter")
@@ -31,7 +33,6 @@
   let rawTitle;
   let videoId;
 	button.addEventListener("click", async function() {
-    player.style.display = "none";
     title.style.display = "inline";
     title.textContent = "動画を取得中…";
     caution.style.display = "none";
@@ -50,7 +51,6 @@
       if (r.status != 200) throw new Error("fetch failed");
       const res = await r.json();
       if (!res) throw new Error("parse to json failed");
-      alert(JSON.stringify(res, null, 2));
       if (!res.formatStreams) throw new Error("formatStreams not found");
       if (
         !res.formatStreams ||
