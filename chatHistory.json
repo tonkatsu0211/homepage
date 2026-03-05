@@ -1833,5 +1833,30 @@
     "superAdmin": false,
     "replyTo": null,
     "replyMsg": null
+  },
+  {
+    "id": "86057bba-32fa-42d7-af32-69e7f8573df5",
+    "username": "systemC2",
+    "message": "たけが切断しました",
+    "timestamp": "2026/03/05 10:12:11"
+  },
+  {
+    "id": "7f232750-005e-4d05-80ca-b2a9011273ab",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2026/03/05 10:40:53"
+  },
+  {
+    "id": "4e82c00f-7f2c-435e-932d-55f1adf2d167",
+    "username": "_tonkatsu_",
+    "uid": "'UID'-tonkatsu",
+    "message": "Yes",
+    "timestamp": "2026/3/5 10:41:05",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": "6e60a732-833a-4d73-80f0-2c276e1ae09d",
+    "replyMsg": "選挙って特設ページとかが出来んの？"
   }
 ]
