@@ -479,16 +479,16 @@ router.get(["/ban", "/ban.html"], (req, res) => {
 });
 
 router.get(["/vote", "/vote.html"], (req, res) => {
+  const username = req.cookies.user;
+  let uid;
+  if (username && usersData.users[username]) {
+    uid = usersData.users[username].uid || "unknown";
+  }
   loadBannedUsers();
   if (bannedUsers.includes(uid)) {
     res.cookie("ban", "true", { httpOnly: false, path: "/" });
     res.status(403).redirect("/chat/ban");
   } else {
-    const username = req.cookies.user;
-    let uid;
-    if (username && usersData.users[username]) {
-      uid = usersData.users[username].uid || "unknown";
-    }
     let canVote;
     if (canVoteList.includes(uid) && req.cookies.voted != true) {
       canVote = true;
