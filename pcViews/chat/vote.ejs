@@ -72,10 +72,7 @@
   
   function vote(target) {
     const canVote2 = localStorage.getItem("voted") || false;
-    alert(canVote);
-    alert(canVote2);
-    if (!voteDates.includes(date)) return alert("投票期間ではありません。");
-    alert(canVote == "false" || canVote2 == "true");
+    if (!voteDates.includes(date)) return alert("現在は投票期間ではありません。\n投票期間は3/8〜3/14です。");
     if (canVote == "false" || canVote2 == "true") return alert("投票権がありません。");
     const confirmed = confirm(`本当に${target}に投票しますか?`);
     if (!confirmed) return alert("投票をキャンセルしました。");
