@@ -14,7 +14,7 @@ const { v4: uuidv4 } = require("uuid");
 const { Server } = require("socket.io");
 const io = new Server(http);
 const tag = "chat"
-const canVoteList = ["'UID'-tonkatsu", "'UID'-793d3685-d485-43b7-9f32-dc5e9921969f", "'UID'-415067d7-2f34-4910-a80c-7d020308666e", "'UID'-5d7cd6cd-9667-45f6-a28c-3c0550262752", "'UID'-94b50222-4c1c-4a73-b065-9eb0aad105ae", "'UID'-a341944f-e06b-4443-80eb-ee6285163739", "'UID'-b67df19e-23c8-4362-9d6c-f9f6f2593420", "'UID'-b475ba14-e87f-4129-a570-4132dd84c34d"];
+const canVoteList = ["'UID'-793d3685-d485-43b7-9f32-dc5e9921969f", "'UID'-415067d7-2f34-4910-a80c-7d020308666e", "'UID'-5d7cd6cd-9667-45f6-a28c-3c0550262752", "'UID'-94b50222-4c1c-4a73-b065-9eb0aad105ae", "'UID'-a341944f-e06b-4443-80eb-ee6285163739", "'UID'-b67df19e-23c8-4362-9d6c-f9f6f2593420", "'UID'-b475ba14-e87f-4129-a570-4132dd84c34d"];
 
 /*
 bcrypt.hash("x_Sanon_x", 10).then(hash => {
