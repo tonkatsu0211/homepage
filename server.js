@@ -891,6 +891,20 @@ app.post(["/chat/logout", "/chat/logout.html"], (req, res) => {
   });
 });
 
+app.get("*", (req, res) => {
+  render(
+    req,
+    res,
+    "stopping",
+    {
+      title: "_tonkatsu_のページ",
+      page: "stopping",
+      top: "_tonkatsu_のページについて",
+    },
+    "stop"
+  );
+});
+
 app.use("/games", require("./routes/games"));
 app.use("/chat", require("./routes/chat"));
 app.use("/bbs", require("./routes/bbs"));
@@ -898,6 +912,20 @@ app.use("/service", require("./routes/service"));
 app.use("/uploads", require("./routes/uploads"));
 app.use("/proc", require("./routes/proc"));
 app.use("/api", require("./routes/api"));
+
+app.get(["/stopping", "/stopping.html"], (req, res) => {
+  render(
+    req,
+    res,
+    "stopping",
+    {
+      title: "_tonkatsu_のページ",
+      page: "stopping",
+      top: "_tonkatsu_のページについて",
+    },
+    "stop"
+  );
+});
 
 app.get(["/", "/index", "/top", "/index.html"], (req, res) => {
   const from = req.query.f || "";
@@ -971,7 +999,7 @@ app.get(["/constructing", "/const", "/constructing.html"], (req, res) => {
   );
 });
 
-app.get(["/constructing1", "/const1", "/constructing1.html"], (req, res) => {
+/*app.get(["/constructing1", "/const1", "/constructing1.html"], (req, res) => {
   render(
     req,
     res,
@@ -983,7 +1011,7 @@ app.get(["/constructing1", "/const1", "/constructing1.html"], (req, res) => {
     },
     "const"
   );
-});
+});*/
 
 app.get(["/contact", "/contact.html"], (req, res) => {
   render(
@@ -1097,4 +1125,4 @@ async function autoPush() {
     }
 }
 
-setInterval(autoPush, 900000);
+//setInterval(autoPush, 900000);

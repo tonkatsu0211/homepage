@@ -1,5 +1,10 @@
 <div class="nav">
-  <a
+    <a
+      href="<%= em === 'true' ? '/empass/stopping' : '/stopping' %>"
+      class="active"
+      >休止中</a
+    >
+<!--  <a
     href="<%= em === 'true' ? '/empass' : '/' %>"
     class="<%= tag === 'index' ? 'active' : '' %>"
     >TOP</a
@@ -52,16 +57,9 @@
     >建設中</a
   >
 
-  <% } %> <% if (tag === 'constructing1') { %>
-  <a
-    href="<%= em === 'true' ? '/empass/constructing1' : '/constructing1' %>"
-    class="active"
-    >建設中</a
-  >
-
   <% } %> <% if (tag === 'error') { %>
   <a href="<%= em === 'true' ? '/empass/error' : '/error' %>" class="active"
     >404</a
   >
-  <% } %>
+  <% } %>-->
 </div>
