@@ -12,7 +12,11 @@
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ message: 'reload on /<%= page %> ... OK' })
-  }).then(() => {
+  })
+  .catch(() => {
+    location.href = '<%= em === `true` ? `/empass/${page}` : `/${page}` %>'
+  })
+  .then(() => {
     location.href = '<%= em === `true` ? `/empass/${page}` : `/${page}` %>'
   });
 "

@@ -898,7 +898,7 @@ app.use((req, res) => {
     "stopping",
     {
       title: "_tonkatsu_のページ",
-      page: "stopping",
+      page: req.originalUrl,
       top: "_tonkatsu_のページについて",
     },
     "stop"
