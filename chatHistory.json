@@ -1877,5 +1877,416 @@
     "superAdmin": false,
     "replyTo": null,
     "replyMsg": null
+  },
+  {
+    "id": "e9f2c478-cc7d-4c83-9ddc-816212cec6c0",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2026/03/10 13:46:00"
+  },
+  {
+    "id": "0c3599cd-3c81-41cd-b171-f6ef49270bd6",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2026/03/10 13:46:15"
+  },
+  {
+    "id": "a60aa293-479c-4b47-a182-ab2a236851ec",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2026/03/10 13:48:27"
+  },
+  {
+    "id": "7682d7ad-7516-45e0-beeb-9d585fe51934",
+    "username": "takumak7",
+    "uid": "'UID'-c6d93eb0-609a-4993-848a-261cc2c8e28e",
+    "message": "【速報】nana.utopia.drciocan.ro 規制",
+    "timestamp": "2026/3/10 13:49:48",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "bafbfa29-5a7e-44b7-aa35-fc191e274da4",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2026/03/10 13:51:07"
+  },
+  {
+    "id": "4d74c8e0-df5e-483a-a6c5-b0f6bc41fa02",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2026/03/10 13:51:56"
+  },
+  {
+    "id": "d2691962-fe23-4605-a1f5-8fb7eb59f567",
+    "username": "takumak7",
+    "uid": "'UID'-c6d93eb0-609a-4993-848a-261cc2c8e28e",
+    "message": "Hello?",
+    "timestamp": "2026/3/10 13:52:08",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null,
+    "delMessage": "このメッセージは投稿者によって削除されました",
+    "deleted": true
+  },
+  {
+    "id": "aa769f96-8f2b-4dff-b35d-c0de9acc51fe",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2026/03/10 13:54:05"
+  },
+  {
+    "id": "0f90998c-a517-4292-987d-6f278f7f4dae",
+    "username": "_tonkatsu_",
+    "uid": "'UID'-tonkatsu",
+    "message": "へっぉ",
+    "timestamp": "2026/3/10 13:54:11",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "4464192c-6ed6-4bf9-af22-cf9219a561ef",
+    "username": "takumak7",
+    "uid": "'UID'-c6d93eb0-609a-4993-848a-261cc2c8e28e",
+    "message": "規制されちゃいましたよ",
+    "timestamp": "2026/3/10 13:54:36",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "8972d58d-706c-4bc3-aea7-3f3321903b1d",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2026/03/10 13:54:41"
+  },
+  {
+    "id": "1b1aee69-ecb7-49c5-9352-38dab5673b72",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2026/03/10 13:55:27"
+  },
+  {
+    "id": "f4254089-1419-413d-92c2-a2528f16f593",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2026/03/10 13:55:56"
+  },
+  {
+    "id": "d984c45d-6897-4657-a8eb-f4b27e749b10",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2026/03/10 13:56:50"
+  },
+  {
+    "id": "85e211ba-2fc3-42c0-a99a-1432c0e2ae58",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2026/03/10 13:58:32"
+  },
+  {
+    "id": "582b19b4-65a6-48fb-a93d-a4390f09363d",
+    "username": "_tonkatsu_",
+    "uid": "'UID'-tonkatsu",
+    "message": "せやねぇ",
+    "timestamp": "2026/3/10 13:58:38",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "5f94d346-72e5-459c-863f-883da14d91a2",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2026/03/10 13:58:50"
+  },
+  {
+    "id": "7a5a538b-dbad-4506-a6d2-c014f59c0c07",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2026/03/10 13:58:50"
+  },
+  {
+    "id": "06695bd1-af3d-4e03-aa36-bccb3d51a771",
+    "username": "takumak7",
+    "uid": "'UID'-c6d93eb0-609a-4993-848a-261cc2c8e28e",
+    "message": "ME「　(困った)　」",
+    "timestamp": "2026/3/10 13:59:43",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null,
+    "delMessage": "このメッセージは投稿者によって削除されました",
+    "deleted": true
+  },
+  {
+    "id": "5c9ee4ed-1845-43c0-9232-3de566a6dde0",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2026/03/10 14:00:44"
+  },
+  {
+    "id": "7a8eb930-7fd9-49e4-8be4-3a1dfc088b42",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2026/03/10 14:02:41"
+  },
+  {
+    "id": "22318605-4ada-46b0-aa12-f9467a9c4eeb",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2026/03/10 14:03:36"
+  },
+  {
+    "id": "3368ec52-add0-4fd9-9148-933d1c36d2a2",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2026/03/10 14:08:16"
+  },
+  {
+    "id": "df7a914b-ee93-4303-8321-f6ef9d9c7616",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2026/03/10 14:09:56"
+  },
+  {
+    "id": "60498956-30e1-416a-b888-252c0dd91572",
+    "username": "takumak7",
+    "uid": "'UID'-c6d93eb0-609a-4993-848a-261cc2c8e28e",
+    "message": "どうする？",
+    "timestamp": "2026/3/10 14:10:12",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "a441384c-c87f-406f-9368-ce70c0aa69b0",
+    "username": "_tonkatsu_",
+    "uid": "'UID'-tonkatsu",
+    "message": "GOする1",
+    "timestamp": "2026/3/10 14:10:18",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "afebc501-42af-4bef-8ad1-230829d5bdb9",
+    "username": "takumak7",
+    "uid": "'UID'-c6d93eb0-609a-4993-848a-261cc2c8e28e",
+    "message": "…",
+    "timestamp": "2026/3/10 14:10:24",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "f74b5b7c-832d-40ad-a264-afb7fcc8324b",
+    "username": "_tonkatsu_",
+    "uid": "'UID'-tonkatsu",
+    "message": "タクシーアプリ「GO」",
+    "timestamp": "2026/3/10 14:10:28",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "67803c78-e90d-4f8f-be75-ff24cb8a71b7",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2026/03/10 14:10:47"
+  },
+  {
+    "id": "6b600d0a-b43a-41b8-adf0-e4269197b5ef",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2026/03/10 14:11:10"
+  },
+  {
+    "id": "3fe94e1a-b0c9-4e94-a5ec-11b4c9c9fd99",
+    "username": "_tonkatsu_",
+    "uid": "'UID'-tonkatsu",
+    "message": "明日返却か…",
+    "timestamp": "2026/3/10 14:11:52",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "f7c9f1ca-6f1b-4c64-9039-5781359faebb",
+    "username": "takumak7",
+    "uid": "'UID'-c6d93eb0-609a-4993-848a-261cc2c8e28e",
+    "message": "そうだった",
+    "timestamp": "2026/3/10 14:12:08",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "60cdde5a-ace1-4778-8540-865fa13a5c7c",
+    "username": "_tonkatsu_",
+    "uid": "'UID'-tonkatsu",
+    "message": "(眼を大きく開いて懇願する顔)",
+    "timestamp": "2026/3/10 14:12:16",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "734ef8e4-e3a4-4cc5-8d4f-f527df468795",
+    "username": "_tonkatsu_",
+    "uid": "'UID'-tonkatsu",
+    "message": "🥺",
+    "timestamp": "2026/3/10 14:12:39",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "d22a5978-4bb3-426c-8439-61b40426aa56",
+    "username": "takumak7",
+    "uid": "'UID'-c6d93eb0-609a-4993-848a-261cc2c8e28e",
+    "message": "何もデータ移してない",
+    "timestamp": "2026/3/10 14:12:46",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "7c0ba74c-5393-4baa-9c49-dbd7ceada807",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2026/03/10 14:13:23"
+  },
+  {
+    "id": "0c11d35b-6520-4e7a-94c4-8b351a84f235",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2026/03/10 14:13:23"
+  },
+  {
+    "id": "3303448a-9f8b-43fc-8be1-447b3df3d2ac",
+    "username": "systemC2",
+    "message": "takumak7が再接続しました",
+    "timestamp": "2026/03/10 14:13:24"
+  },
+  {
+    "id": "cdc72211-75cb-4d5b-8ed3-5f031c68f314",
+    "username": "systemC2",
+    "message": "_tonkatsu_が再接続しました",
+    "timestamp": "2026/03/10 14:13:25"
+  },
+  {
+    "id": "e3a955be-d5c2-4c3f-9cdc-625fa3c07f32",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2026/03/10 14:13:48"
+  },
+  {
+    "id": "e056911d-8e00-4051-a17e-165d64e86014",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2026/03/10 14:14:04"
+  },
+  {
+    "id": "8608649a-f913-4578-88ff-9df129716c86",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2026/03/10 14:14:36"
+  },
+  {
+    "id": "12453383-c83a-49ed-8684-8b4eea24cf30",
+    "username": "_tonkatsu_",
+    "uid": "'UID'-tonkatsu",
+    "message": "双方向pingにするか",
+    "timestamp": "2026/3/10 14:15:22",
+    "ipv4": "10.42.0.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
+  },
+  {
+    "id": "faa1a8b7-7b1c-4406-abdd-3bdf290eb859",
+    "username": "systemC2",
+    "message": "_tonkatsu_が切断しました",
+    "timestamp": "2026/03/10 14:15:44"
+  },
+  {
+    "id": "e420adc5-fb19-477a-a916-c29e7d78ef73",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2026/03/10 14:16:14"
+  },
+  {
+    "id": "25de52ab-c7ea-422e-b26e-d4230429907c",
+    "username": "systemC2",
+    "message": "takumak7が切断しました",
+    "timestamp": "2026/03/10 14:16:50"
+  },
+  {
+    "id": "bc5fb42e-fb34-4909-924b-ddf4e9f07ffd",
+    "username": "systemC2",
+    "message": "takumak7が接続しました",
+    "timestamp": "2026/03/10 14:17:24"
+  },
+  {
+    "id": "a9871d38-7fcd-4795-8291-d9d4f282bdcf",
+    "username": "takumak7",
+    "uid": "'UID'-c6d93eb0-609a-4993-848a-261cc2c8e28e",
+    "message": "どゆこと？",
+    "timestamp": "2026/3/10 14:17:35",
+    "ipv4": "10.42.2.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
   }
 ]

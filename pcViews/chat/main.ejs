@@ -281,6 +281,14 @@
     return null;
   }
 
+  function disconnect(reason) {
+    console.log("接続が切断されました。 原因:", reason);
+    alert(`接続が切断しました。再読み込みします。(${reason})`);
+    setTimeout(() => {
+    location.reload();
+    }, 500)
+  };
+
   const isAdmin = "<%= isAdmin %>";
   const username = "<%= username %>";
   const rawuid = "<%= uid %>";
@@ -478,9 +486,26 @@
     location.reload()
   });
   
+  let lastPing;
+  
   setInterval(() => {
     socket.emit("client ping");
   }, 2000);
+
+  socket.on("server ping", () => {
+    lastPing = Date.now();
+  });
+
+  setInterval(() => {
+    const now = Date.now();
+    if (now - lastPing > 10000) {
+      const socket = io.sockets.sockets.get(id);
+      if (socket) {
+        socket.disconnect(false);
+      }
+      disconnect("server ping timeout");
+    }
+  }, 500);
   
   socket.on('password changed', (user) => {
     if (user == username) {
@@ -1090,12 +1115,7 @@
   const reconnectBtn = document.getElementById("reconnectBtn");
 
   socket.on("disconnect", (reason) => {
-    console.log("接続が切断されました。 原因:", reason);
-    if (reason != "ping timeout") return;
-    alert(`接続がタイムアウトしました。再読み込みします。`);
-    setTimeout(() => {
-    location.reload();
-    }, 500)
+    disconnect(reason);
   });
 
   socket.on("connect_error", (err) => {

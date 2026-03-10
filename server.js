@@ -194,6 +194,7 @@ io.on("connection", (socket) => {
 
   socket.on("client ping", () => {
     lastPing[socket.id] = Date.now();
+    socket.emit("server ping");
   });
 
   socket.on("disconnect", () => {
@@ -1096,4 +1097,4 @@ async function autoPush() {
     }
 }
 
-setInterval(autoPush, 3600000);
+setInterval(autoPush, 1800000);
