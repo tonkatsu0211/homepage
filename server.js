@@ -891,7 +891,7 @@ app.post(["/chat/logout", "/chat/logout.html"], (req, res) => {
   });
 });
 
-app.get((req, res) => {
+app.use((req, res) => {
   render(
     req,
     res,
