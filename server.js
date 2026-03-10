@@ -1097,4 +1097,4 @@ async function autoPush() {
     }
 }
 
-setInterval(autoPush, 1800000);
+setInterval(autoPush, 900000);
