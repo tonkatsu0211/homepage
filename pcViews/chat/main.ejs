@@ -496,16 +496,18 @@
     lastPing = Date.now();
   });
 
-  setInterval(() => {
-    const now = Date.now();
-    if (now - lastPing > 10000) {
-      const socket = io.sockets.sockets.get(id);
-      if (socket) {
-        socket.disconnect(false);
+  setTimeout(() => {
+    setInterval(() => {
+      const now = Date.now();
+      if (now - lastPing > 10000) {
+        const socket = io.sockets.sockets.get(id);
+        if (socket) {
+          socket.disconnect(false);
+        }
+        disconnect("server ping timeout");
       }
-      disconnect("server ping timeout");
-    }
-  }, 500);
+    }, 500);
+  }, 2000);
   
   socket.on('password changed', (user) => {
     if (user == username) {
