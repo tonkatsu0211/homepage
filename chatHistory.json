@@ -1858,5 +1858,24 @@
     "superAdmin": false,
     "replyTo": "6e60a732-833a-4d73-80f0-2c276e1ae09d",
     "replyMsg": "選挙って特設ページとかが出来んの？"
+  },
+  {
+    "id": "fae81472-32b8-4b7d-a3ab-d8cba15c4b16",
+    "username": "systemC2",
+    "message": "_tonkatsu_が接続しました",
+    "timestamp": "2026/03/09 12:47:25"
+  },
+  {
+    "id": "d992d426-223f-4738-abb3-bdfd24bce829",
+    "username": "_tonkatsu_",
+    "uid": "'UID'-tonkatsu",
+    "message": "誰もいなくて草",
+    "timestamp": "2026/3/9 12:47:37",
+    "ipv4": "10.42.1.0",
+    "ipv6": "",
+    "isAdmin": true,
+    "superAdmin": false,
+    "replyTo": null,
+    "replyMsg": null
   }
 ]
