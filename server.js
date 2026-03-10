@@ -1067,3 +1067,33 @@ const port = process.env.PORT || 3000;
 http.listen(port, "0.0.0.0", () => {
   console.log("App listening on port", port, ", pid", process.pid);
 });
+
+
+const { spawn } = require("child_process");
+
+function runGit(args) {
+    return new Promise((resolve, reject) => {
+        const git = spawn("git", args, { cwd: "/workspace" });
+
+        git.stdout.on("data", d => console.log(d.toString()));
+        git.stderr.on("data", d => console.error(d.toString()));
+
+        git.on("close", code => {
+            if (code === 0) resolve();
+            else reject(new Error("git " + args.join(" ") + " failed"));
+        });
+    });
+}
+
+async function autoPush() {
+    try {
+        await runGit(["add", "."]);
+        await runGit(["commit", "-m", "update"]);
+        await runGit(["push", "origin", "main"]).catch(()=>{});
+        console.log("pushed");
+    } catch (e) {
+        console.error(e.message);
+    }
+}
+
+setInterval(autoPush, 3600000);
