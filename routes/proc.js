@@ -152,5 +152,69 @@ router.get("/api/5000generator", async (req, res) => {
     }
 });
 
+router.get("/api/neo2stats", async (req, res) => {
+    try{
+        const r = await fetch(`https://neo2stats.f5.si`,
+            {
+                headers: {
+                    "User-Agent": user_agent
+                    //"Accept": "application/json"
+                }
+            }
+        );
+
+        //const text = await r.text();
+
+        fs.writeFileSync(htmlPath, r);
+
+        //const data = JSON.parse(text);
+        //res.pipe(r);
+        const arrayBuffer = await r.arrayBuffer();
+        const buffer = Buffer.from(arrayBuffer);
+
+        res.setHeader("Content-Type", "image/png");
+        res.setHeader("Content-Length", buffer.length);
+        res.setHeader("Cache-Control", "public, max-age=86400");
+
+        res.end(buffer);
+    } catch (e) {
+        console.error(e.message);
+        res.send(e);
+    }
+});
+
+router.get("/api/neo2stats/:url", async (req, res) => {
+    const url = req.params.url || null;
+    if (url == null) return;
+    try{
+        const r = await fetch(`https://neo2stats.f5.si/${url}`,
+            {
+                headers: {
+                    "User-Agent": user_agent
+                    //"Accept": "application/json"
+                }
+            }
+        );
+
+        //const text = await r.text();
+
+        fs.writeFileSync(htmlPath, r);
+
+        //const data = JSON.parse(text);
+        //res.pipe(r);
+        const arrayBuffer = await r.arrayBuffer();
+        const buffer = Buffer.from(arrayBuffer);
+
+        res.setHeader("Content-Type", "image/png");
+        res.setHeader("Content-Length", buffer.length);
+        res.setHeader("Cache-Control", "public, max-age=86400");
+
+        res.end(buffer);
+    } catch (e) {
+        console.error(e.message);
+        res.send(e);
+    }
+});
+
 
 module.exports = router;
